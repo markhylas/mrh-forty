@@ -1,10 +1,8 @@
-# gatsby-theme-forty
+# mrh-forty
 
-Gatsby.js theme based on the Forty site template, designed by HTML5 UP.
-
-## Preview
-
-https://gatsby-theme-forty.netlify.com
+A customization of a Gatsby.js theme based on the Forty site template,
+designed by HTML5 UP and edited by Mark Hylas. The purpose of this project
+is to provide a GIS & UAS portfolio.
 
 ## Installation
 
@@ -35,3 +33,5 @@ Here is an example of using the grid, for a 3 column layout:
     </div>
 </div>
 ```
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e81fda62-465b-4219-b014-1e83d729de5d/deploy-status)](https://app.netlify.com/sites/admiring-einstein-e04d2c/deploys)

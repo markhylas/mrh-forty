@@ -10,11 +10,6 @@ const Footer = props => (
           </a>
         </li>
         <li>
-          <a href="#" aria-label="Facebook" className="icon alt fa-facebook">
-            <span className="label">Facebook</span>
-          </a>
-        </li>
-        <li>
           <a href="#" aria-label="Instagram" className="icon alt fa-instagram">
             <span className="label">Instagram</span>
           </a>
@@ -31,7 +26,7 @@ const Footer = props => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Untitled</li>
+        <li>&copy; Hylas Maps</li>
         <li>
           Design: <a href="https://html5up.net">HTML5 UP</a>
         </li>

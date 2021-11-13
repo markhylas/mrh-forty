@@ -85,7 +85,7 @@ const BannerLandingMappingvsSurvey = (props) => (
                 <h1>Mapping vs Survey Grade GPS Analysis</h1>
             </header>
             <div className="content">
-                <p>sub text </p>
+                <p>A technical comparison between RTK and mapping grade GPS.</p>
             </div>
         </div>
     </section>

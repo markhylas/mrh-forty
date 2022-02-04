@@ -23,7 +23,7 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Completed map with all territories of influence that touch the A.T.</h2>
                     </header>
-                    <p>Belowww is the completed map that displays every territory that the A.T. Traverses through. The A.T. runs through 22 Native Nations' traditional territories and holds an abundant amount of Indigenous American history. This A.T. map was created to provide A.T. hikers with a better understanding of the territories they are traversing through.  </p>
+                    <p>Below is the completed map that displays every territory that the A.T. Traverses through. The A.T. runs through 22 Native Nations' traditional territories and holds an abundant amount of Indigenous American history. This A.T. map was created to provide A.T. hikers with a better understanding of the territories they are traversing through.  </p>
                 </div>
             </section>
             <section id="two" className="spotlights">

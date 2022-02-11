@@ -9,6 +9,8 @@ import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import mappingvssurvey from '../assets/images/mappingvssurvey.jpg'
 import surveybased from '../assets/images/surveybased.jpg'
+import Trimble_TDC600_1 from '../assets/images/Trimble_TDC600_1.jpg'
+import GPS_Close_up from '../assets/images/GPS_Close_up.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -38,7 +40,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Using survey monuments to compare both GPS devices.</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>This project mapped out the location of survey markers in Albuquerque, NM. Both mapping grade and real time kinematic GPS devices were used. As per each GPS device capabilities, the mapping grade GPS provided sub meter acuraccy, while RTK is accurate down to a centimeter. </p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -47,14 +49,14 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={surveybased} alt="" />
+                        <img src={Trimble_TDC600_1} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Mapping Grade GPS </h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>To the right is an example of a mapping grade GPS. There are many reasons to use a device with only sub meter accuracy. The two most common reasons are cost, portability and speed of use. Recording spatial data on the fly fast-tracks the mapping and data analysis process.  </p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -63,14 +65,14 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={GPS_Close_up} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Survey marker close up</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Photo to the left provides a closer look of a survey marker (the blue cross) and the accuracy delta between RTK and mapping grade GPS.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>

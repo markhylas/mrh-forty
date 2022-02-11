@@ -52,7 +52,7 @@ const Landing = (props) => (
                             <header className="major">
                                 <h3>Rhoncus magna</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>A part of this project was to showcase the abbility of ArcGIS Pro overlay toolset concepts. The map to the right is a union.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>

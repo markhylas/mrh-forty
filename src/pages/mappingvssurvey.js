@@ -10,7 +10,7 @@ import pic10 from '../assets/images/pic10.jpg'
 import mappingvssurvey from '../assets/images/mappingvssurvey.jpg'
 import surveybased from '../assets/images/surveybased.jpg'
 import Trimble_TDC600_1 from '../assets/images/Trimble_TDC600_1.jpg'
-import GPS_Close_up from '../assets/images/GPS_Close_up.jpg'
+import GPS_Close_up from '../assets/images/GPS_Close_Up.jpg'
 
 const Landing = (props) => (
     <Layout>

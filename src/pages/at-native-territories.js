@@ -8,6 +8,8 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import ATC_NATIVE_TERRITORIES from '../assets/images/ATC_NATIVE_TERRITORIES.jpg'
+import AT_Trail_Intersect from '../assets/images/AT_Trail_Intersect.jpg'
+import Erase_Overlay from '../assets/images/Erase_Overlay.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -46,14 +48,14 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={AT_Trail_Intersect} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Intersect of Territories</h3>
                             </header>
-                            <p>A part of this project was to showcase the abbility of ArcGIS Pro overlay toolset concepts. The map to the right is a union.</p>
+                            <p>A part of this project was to showcase the ability of ArcGIS Pro overlay toolset concepts. The map to the right shows only territories where they overlapped.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -62,14 +64,14 @@ const Landing = (props) => (
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={Erase_Overlay} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Erase Overlay</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>This is the output of the erase tool. Similar overlay tool but this time I only displayed parts of territories that avoid overlap.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>

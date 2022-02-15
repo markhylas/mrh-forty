@@ -8,6 +8,8 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 import tentcityfinal from '../assets/images/tentcityfinal.jpg'
+import Portland_Homeless_Tentcity_Project_Map from '../assets/images/Portland_Homeless_Tentcity_Project_Map.jpg'
+import Portland_Houseless_Heatmap from '../assets/images/Portland_Houseless_Heatmap.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -47,14 +49,16 @@ The map below highlights the radius of an area that provides access to all essen
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic09} alt="" />
+                        <img src={Portland_Homeless_Tentcity_Project_Map} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>Site Selection</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>The two high lighted regions were produced after a GIS site sellection was performed. The values I used were the location
+of existing transit, hospitals, drug rehabilittation and where houseless individuals naturally choose
+to occupy. The point data shows that being in these 2 regions allowed access to lifes basic needs.</p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>
@@ -63,14 +67,16 @@ The map below highlights the radius of an area that provides access to all essen
                 </section>
                 <section>
                     <Link to="/generic" className="image">
-                        <img src={pic10} alt="" />
+                        <img src={Portland_Houseless_Heatmap} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>Heat Map</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>The heatmap to the left clears up the point data which may have been confusing. There is a lot of overlap that you cannot
+illustrate with simple points. To better illustrate the actual density, I converted the points to a heatmap by using the
+ArcGIS Pro density toolset. </p>
                             <ul className="actions">
                                 <li><Link to="/generic" className="button">Learn more</Link></li>
                             </ul>

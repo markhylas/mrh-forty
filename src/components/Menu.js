@@ -11,7 +11,7 @@ const Menu = (props) => (
                 <li><Link onClick={props.onToggleMenu} to="/at-native-territories">AT Native Territories</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/alameda">Alameda Open Space</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/california-houseless">California Rent Increase</Link></li>
-                <li><Link onClick={props.onToggleMenu} to="/portland-housing">Portland Housing Crisis</Link></li>
+                <li><Link onClick={props.onToggleMenu} to="/portlandhousingcrisis">Portland Housing Crisis</Link></li>
                 <li><Link onClick={props.onToggleMenu} to="/mappingvssurvey">Mapping vs Survey grade GPS</Link></li>
                 {/*<li><Link onClick={props.onToggleMenu} to="/elements">Elements</Link></li>*/}
             </ul>

@@ -26,7 +26,7 @@ const Landing = (props) => (
                     <header className="major">
                         <h2>Housing, not handcuffs</h2>
                     </header>
-                    <p>For the past 12 years Portland OR has experienced an increase of homeless persons. Many proposals have been put forth, but little has been effective. It has been proven that removing tent cities have costed the city more than it has helped. My map proposes a locations on where these encampents should be established with regulaton. </p>
+                    <p>For the past 12 years, Portland OR has experienced an increase of homeless persons. Many proposals have been put forth, but little has been effective. It has been proven that removing tent cities have costed the city more than it has helped. My map proposes a locations on where these encampents should be established with regulaton. </p>
                 </div>
             </section>
             <section id="two" className="spotlights">

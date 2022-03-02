@@ -15,13 +15,7 @@ const Banner = props => (
           <br />
           I consider myself as a "swiss army knife" geographic technology, not an expert in any particular category.
         </p>
-        <ul className="actions">
-          <li>
-            <a href="#one" name="Get Started" className="button next scrolly">
-              Get Started
-            </a>
-          </li>
-        </ul>
+        
       </div>
     </div>
   </section>

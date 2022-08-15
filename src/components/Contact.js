@@ -4,7 +4,7 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-                <form method="post" action="#">
+                <form name="contacthm" method="POST" data-netlify="true">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
@@ -18,7 +18,7 @@ const Contact = (props) => (
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
-                        <li><input type="submit" value="Send Message" className="special" /></li>
+                        <li><input className="special" type="submit" value="Send Message"></input></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
                 </form>
@@ -28,23 +28,21 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">markhylas@gmail.com</a>
+                        <a href="mailto:mark@hylasmaps.com?subject=[Hylas Maps] Hello!">mark@hylasmaps.com</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
                         <span className="icon alt fa-phone"></span>
                         <h3>Phone</h3>
-                        <span>(917)747-9672</span>
+                        <a href="tel:+19177479672">(917) 747-9672</a>
                     </div>
                 </section>
                 <section>
                     <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>Orange County, NY <br />
-                        <br />
-                        United States of America</span>
+                        <span className="icon alt fa-map-marker"></span>
+                        <h3>Location</h3>
+                        <span>Orange County, NY</span>
                     </div>
                 </section>
             </section>

@@ -12,6 +12,7 @@ import Layout from '../components/layout'
 import geomaticsymbol from '../assets/images/geomaticsymbol.jpg'
 import renttoohigh from '../assets/images/renttoohigh.jpg'
 import tentillustration from '../assets/images/tentillustration.jpg'
+
 class HomeIndex extends React.Component {
   render() {
     return (
@@ -72,7 +73,7 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>Alameda Open Space</h3>
-                  <p>Capturing Open Space features with GPS data collection device. </p>
+                  <p>Capturing Open Space features with GPS data collection device.</p>
                 </header>
               </Link>
             </article>
@@ -84,7 +85,7 @@ class HomeIndex extends React.Component {
               >
                 <header className="major">
                   <h3>California Houseless <br/>& Rent Increase</h3>
-                  <p>QGIS with time manager helps ilustrate the trend of rent hikes and increase in houseless individuals </p>
+                  <p>QGIS with time manager helps ilustrate the trend of rent hikes and increase in houseless individuals.</p>
                 </header>
               </Link>
             </article>
